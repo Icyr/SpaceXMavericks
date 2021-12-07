@@ -7,7 +7,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
-        android:name="com.example.spacexmavericks.feature.latest.LatestFragment"
+        android:name="com.example.spacexmavericks.feature.latest_launches.LatestFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

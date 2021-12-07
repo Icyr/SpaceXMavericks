@@ -36,6 +36,10 @@ android {
     }
     apollo {
         generateKotlinModels.set(true)
+        customTypeMapping = [
+                "Date": "java.util.Date"
+        ]
+        rootPackageName = "com.example.spacexmavericks"
     }
     buildFeatures.viewBinding = true
 }

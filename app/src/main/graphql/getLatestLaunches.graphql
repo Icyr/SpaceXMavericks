@@ -1,0 +1,10 @@
+query getLatestLaunches {
+    launchesPast(limit: 10) {
+        id
+        mission_name
+        launch_date_local
+        rocket {
+            rocket_name
+        }
+    }
+}

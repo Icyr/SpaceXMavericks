@@ -1,5 +1,7 @@
 package com.example.spacexmavericks.repository
 
-interface LaunchesRepository {
+import com.example.spacexmavericks.domain.Launch
 
+interface LaunchesRepository {
+    suspend fun loadLatestLaunches(): List<Launch>
 }
